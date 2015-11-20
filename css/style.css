@@ -1,18 +1,12 @@
-.titles{
-    text-align: Center;
-    color: red;
+.container {
+  font-size: 14px;
 }
 
-.page-header {
-    text-align: Center;
-    color: red;
+.title {
+  text-transform: none;
 }
 
-.about-me-stuff, li {
-    font-size: 1.5em;
-    font-family: Tahoma;
+.thumbnail {
+  border-color: white;
 }
-a{
-  color: black;
-  text-decoration: none;
-}
+

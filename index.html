@@ -1,5 +1,4 @@
-<!DOCCTYPE html>
-<link rel="stylesheet" type="text/css" href="/css/style.css">
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    <link href="css/style.css" rel="stylesheet" >
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,35 +22,62 @@
     <div class="container">
       <div class="page-header">
         <h1>BENJI BANANAS</h1>
-        <h3>Welcome to my banana-site!</h3>
+        <h2><small>Bem-vindos ao meu website!<small></h2>
       </div>
 
-      <div class="col-md-3 col-sm-4 col-xs-6 thumbnail">
-        <img class="img-circle" src="/imgs/bbface.png" alt="">
+      <!-- Fotografia Benji Banana -->
+      <div class="row">
+        <div class="col-md-5 col-sm-4 col-xs-0"></div>
+        <div class="col-md-2 col-sm-4 col-xs-12 thumbnail">
+          <img class="img-circle" src="/imgs/bbface.png" alt="">
+        </div>
+        <div class="col-md-5 col-sm-4 col-xs-0"></div>
       </div>
-      <div class="col-md-4">
-        <h1 class="titles">About Me</h1>
-        <p class="about-me-stuff"><strong>Name:</strong> Benji</p>
-        <p class="about-me-stuff"><strong>Surname:</strong> Bananas</p>
-        <p class="about-me-stuff"><strong>Age:</strong> 10 Bananas</p>
-        <p class="about-me-stuff"><strong>Mail:</strong> benji@bananas.come<p>
-        <p class="about-me-stuff"><strong>Favorite Food:</strong> <a href="https://www.google.pt/search?q=banana&espv=2&biw=1280&bih=728&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjttcL0-5_JAhXFVhQKHdg4A1oQ_AUIBigB">Banana</a>
+
+      <!-- Sobre Mim e Hobbies -->
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="title">Sobre Mim</h3>
+          <p class="lead">Olá, o meu nome é Benji Bananas.<br>
+            Sejam bem-vindos ao meu website onde podem ficar a saber mais
+            sobre mim e sobre a minha vida na selva. Já vos disse que
+            sou a personagem principal de um jogo? Não?
+            Então vejam um video
+            <a href="https://www.youtube.com/watch?v=QrzKXMS_z7s">aqui</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="title">Hobbies</h3>
+          <ul class="list-group">
+            <li class="lead list-group-item">Apanhar Bananas</li>
+            <li class="lead list-group-item">Desafiar o perigo</li>
+            <li class="lead list-group-item">Voar de árvore em árvore</li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="title">Site Oficial</h3>
+          <a href="http://www.benjibananas.com">
+            <button class="btn btn-primary">Ir para o site oficial</button>
+          </a>
+        </div>
       </div>
-      <div class="col-md-4 col-sm-3">
-        <h1 class="titles">HOBBIES</h1>
-        <ol>
-          <li>Catch bananas</li>
-          <li>Escape danger</li>
-          <li>Flying vine to vine</li>
-        </ol>
+
+      <!-- Mais informações -->
+      <div class="row">
+        <h3 class="title">Mais informações</h3>
+        <p class="lead col-md-12 col-sm-12 col-xs-12">
+          Nome: Benji Bananas<br>
+          Cor: Castanho<br>
+          País: Brasil<br>
+          Floresta: Floresta Amazónia
+        </p>
       </div>
-      <div class="col-md-4 col-sm-3"><a href="http://www.benjibananas.com/">Touch here if you want to find more</a></div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
 
